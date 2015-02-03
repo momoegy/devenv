@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-RUN 	echo 'Acquire::http::Proxy "http://cube.fritz.box:3142";' > /etc/apt/apt.conf.d/01proxy
-
 RUN     apt-get update                                  && \
         apt-get -y upgrade                              && \
         apt-get -y install    nginx                 	&& \
