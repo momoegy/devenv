@@ -15,4 +15,5 @@ VOLUME ['/var/www/static']
 
 EXPOSE	80
 
+#	should be ENTRYPOINT, but this makes debugging easier
 CMD	[ "nginx" ]

@@ -18,5 +18,6 @@ VOLUME ['/var/www/php']
 
 EXPOSE 80
 
+#       should be ENTRYPOINT, but this makes debugging easier
 CMD	apache2ctl -f /etc/apache2/apache2.conf -e info -DFOREGROUND
 
