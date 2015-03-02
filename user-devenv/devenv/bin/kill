@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in mysql fileserver phpserver; do
+
+	echo $i;
+	docker stop $i;
+	docker rm $i;
+
+done

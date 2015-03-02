@@ -1,0 +1,164 @@
+server {
+  server_name v3.augsburgerjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.bochumjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.duisburgjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.emscher-lippejobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.ennepe-ruhrjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.essenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.hernejobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.regensburgjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.ingolstadtjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.rosenheimjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.chiemgaujobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.innsalzachjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.bglandjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.oberfrankenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.oberhausenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.unterfrankenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.mittelfrankenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.muelheimjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.muenchenerjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.niederbayernjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.regioalbjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobs-im-allgaeu.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.job-norden.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-noe.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-sbg.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-stmk.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.rems-murr-jobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.hagenjobs.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobsniederrhein.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobssauerland.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobssiegen-wittgenstein.dev;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobsvest.dev;
+  include conf.d/app.conf;
+}

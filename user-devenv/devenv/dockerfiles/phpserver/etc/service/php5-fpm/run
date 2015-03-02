@@ -1,0 +1,5 @@
+#!/bin/bash
+exec 2>&1
+
+. /etc/container_environment.sh
+/usr/sbin/php5-fpm -F -c "/etc/php5/fpm/php.ini.d/$V3_ENV/$V3_ROLE-php.ini"
