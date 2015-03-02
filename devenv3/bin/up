@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=changeme devenv/mysql
+docker run -d --name fileserver -p 81:80 -v $( realpath ./static ):/var/www/static devenv/fileserver
+docker run -d --name phpserver -p 80:80 --link mysql:db --volumes-from fileserver -v $( realpath ./php ):/var/www/php devenv/phpserver
+
+

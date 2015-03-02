@@ -1,0 +1,64 @@
+mysql:
+  image: devenv/mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: changeme
+
+memca:
+  build: dockerfiles/memca
+  volumes: 
+    - memca:/var/www/memca
+  ports: 
+    - "11211:11211"
+
+solr:
+  image: solr:latest
+  volumes: 
+    - solr:/var/www/solr
+  ports:
+    - "8983:8983"
+  links:
+    - mysql:db
+    - phpserver:web
+
+fileserver:
+  image: devenv/fileserver
+  ports: 
+    - "81:80"
+  volumes:
+    - static:/var/www/static
+
+phpserver:
+  image: devenv/phpserver
+  volumes: 
+    - php:/var/www/php
+  ports: 
+    - "80:80"
+  links: 
+    - mysql:db
+    - memca:mc
+
+#elasticmq:
+ # build: /devenv/dockerfiles
+  #volumes: 
+   # - /elasticmq:/var/www/elasticmq
+  #ports: 
+   # - "9324:9324"
+  #links:
+   # - mysql:db 
+
+supervisor:
+  image: ubuntu:14.04
+  volumes: 
+    - supervisor:/var/www/supervisor
+
+
+
+
+
+
+
+
+
+
+
+

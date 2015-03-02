@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd dockerfiles
+for i in *; do docker build -t devenv/$i $i; done
