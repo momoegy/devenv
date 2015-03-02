@@ -1,0 +1,25 @@
+#!/bin/bash
+exec 2>&1
+. /etc/container_environment.sh
+sed -e "s/`echo '$V3_SEARCH_ENDPOINT:$V3_SEARCH_PORT'`/`echo $V3_SEARCH_ENDPOINT:$V3_SEARCH_PORT`/" /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf
+
+if [[ $V3_ROLE = 'webserver' ]]; then
+	if [[ $V3_ENV = 'development' ]]; then
+		ln -fs /etc/nginx/sites-available/dev /etc/nginx/sites-enabled/dev
+		# this can't be run in the dockerfile because of a bug? in docker
+		chmod a+w /var/www/htdocs/assets -R
+	elif [[ $V3_ENV = 'testing' ]]; then
+		ln -fs /etc/nginx/sites-available/test /etc/nginx/sites-enabled/test
+	elif [[ $V3_ENV = 'demonstration' ]]; then
+		ln -fs /etc/nginx/sites-available/demo /etc/nginx/sites-enabled/demo
+	else
+		ln -fs /etc/nginx/sites-available/prod /etc/nginx/sites-enabled/prod
+	fi
+else
+	ln -fs /etc/nginx/sites-available/worker /etc/nginx/sites-enabled/worker
+fi
+
+# this can't be run in the dockerfile because of a bug? in docker
+chmod a+w /var/www/runtime -R
+
+/usr/sbin/nginx

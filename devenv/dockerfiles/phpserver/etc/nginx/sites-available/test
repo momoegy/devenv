@@ -1,0 +1,197 @@
+server {
+  server_name v3test.augsburgerjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.bochumjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.duisburgjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.emscher-lippejobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.ennepe-ruhrjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.essenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.hernejobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.regensburgjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.ingolstadtjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.rosenheimjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.chiemgaujobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.innsalzachjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.bglandjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.oberfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.oberhausenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.unterfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.mittelfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.muelheimjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.muenchenerjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.niederbayernjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.regioalbjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobs-im-allgaeu.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobs.sh;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.job-norden.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.localjobs-noe.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.localjobs-sbg.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.localjobs-stmk.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.rems-murr-jobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.hagenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobsniederrhein.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobssauerland.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobssiegen-wittgenstein.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3test.jobsvest.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}

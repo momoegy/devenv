@@ -1,0 +1,197 @@
+server {
+  server_name v3.augsburgerjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.bochumjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.duisburgjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.emscher-lippejobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.ennepe-ruhrjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.essenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.hernejobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.regensburgjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.ingolstadtjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.rosenheimjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.chiemgaujobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.innsalzachjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.bglandjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.oberfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.oberhausenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.unterfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.mittelfrankenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.muelheimjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.muenchenerjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.niederbayernjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.regioalbjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobs-im-allgaeu.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobs.sh;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.job-norden.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-noe.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-sbg.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.localjobs-stmk.at;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.rems-murr-jobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.hagenjobs.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobsniederrhein.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobssauerland.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobssiegen-wittgenstein.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
+
+server {
+  server_name v3.jobsvest.de;
+  include conf.d/htpasswd.conf;
+  include conf.d/app.conf;
+}
